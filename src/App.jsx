@@ -5,6 +5,7 @@ import TechStack from './components/TechStack'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Contact from './components/Contact'
+import Intership from './components/Intership'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <TechStack />
     <Projects />
     <Education />
+    <Intership/>
     <Contact />
     </div>
 

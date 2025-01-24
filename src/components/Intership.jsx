@@ -1,7 +1,7 @@
 import React from 'react'
-import { EXPERIENCES } from '../constants/index'
+import { INTERN } from '../constants/index'
 import {motion} from 'framer-motion'
-const Education = () => {
+const Intership = () => {
   return (
     <div className='pb-4  mt-10'>
         <div>
@@ -9,10 +9,10 @@ const Education = () => {
             whileInView ={{opacity:1 ,y:0}}
             initial ={{opacity:0 ,y:-100 }}
             transitions={{duration:0.5}}
-            className='text-4xl my-20  text-center mr-10  '>Education</motion.h2>
+            className='text-4xl my-20  text-center mr-10  '>Internship</motion.h2>
         </div>
 
-        <div className='ml-10' >{EXPERIENCES.map((items,index)=>(
+        <div className='ml-10' >{INTERN.map((items,index)=>(
                 <div key={index} className='w-full mb-8  flex flex-wrap lg:justify-center'>
                    <motion.div 
                    whileInView={{opacity:1 ,x:0}}
@@ -39,6 +39,7 @@ const Education = () => {
         ))}</div>
     </div>
   )
+  
 }
 
-export default Education
+export default Intership
