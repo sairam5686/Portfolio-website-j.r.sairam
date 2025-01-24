@@ -1,5 +1,5 @@
 import reactify from '../assets/projects/reactify-2.png';
-import ableton from '../assets/projects/ableton.jpg';
+import ableton from '../assets/projects/Ableton clone.jpg';
 import airizer from '../assets/projects/Airizer.png';
 import ams from '../assets/projects/Attendance monitoring system.png';
 import wizardz from '../assets/projects/final_img.jpg';
