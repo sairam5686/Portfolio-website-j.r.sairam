@@ -2,7 +2,7 @@ import reactify from '../assets/projects/reactify-2.png';
 import ableton from '../assets/projects/Ableton clone.jpg';
 import airizer from '../assets/projects/Airizer.png';
 import ams from '../assets/projects/Attendance monitoring system.png';
-import wizardz from '../assets/projects/final_img.jpg';
+import wizardz from '../assets/projects/wizardz.png';
 import gemini from '../assets/projects/Gemini 2.0.png';
 import multiple from '../assets/projects/Multiple Disease Analyzer.png';
 import user_management from '../assets/projects/User_management_system.png';

@@ -22,7 +22,7 @@ const Projects = () => {
               initial={{opacity:0,x:-100}}
               transition={{duration: 1}}
               className='w-full mt-10 mr-5 lg:w-1/4' >
-                <img src={items.image}  height={250} width={250} className='mb-6 rounded-2xl sm:m-auto sm:mb-3  ' />
+                <img src={items.image}  height={300} width={300} className='mb-6 rounded-2xl sm:m-auto sm:mb-3  ' />
               </motion.div>
 
               <motion.div 

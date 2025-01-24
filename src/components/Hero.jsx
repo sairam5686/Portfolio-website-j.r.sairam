@@ -1,7 +1,8 @@
 import React from 'react'
-import sairam_hero from '../assets/ravikumarProfile.webp'
+import sairam_hero from '../assets/protfolio.png'
 import {HERO_CONTENT} from "../constants/index.js"
 import {motion} from'framer-motion'
+
 
 const containerVarient = {
     hidden :{  opacity:0, x: -100},
