@@ -29,7 +29,7 @@ const Projects = () => {
               whileInView={{opacity:1,x:0}}
               initial={{opacity:0,x:100}}
               transition={{duration: 1}}
-              className='w-full max-w-xl lg:w-3/4'>
+              className='w-full max-w-xl mt-10 lg:w-3/4'>
                     <h2 className='mb-2 font-semibold text-2xl'>{items.title}</h2>
                     <p className='mb-4  text-stone-400'>{items.description}</p>
                     {items.technologies.map((tech,index)=>(
