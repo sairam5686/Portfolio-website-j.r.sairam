@@ -50,14 +50,14 @@ export const PROJECTS = [
     image: multiple ,
     description:
       "The Multiple Disease Analyzer is a Python-based machine learning project designed to analyze and predict various diseases based on input data. This tool leverages machine learning and deep learning models with an interactive web application using Streamlit.",
-    technologies: ["Python", "Pandas", "Numpy", "Tensorflow" ,"Streamlit"],
+    technologies: ["Python", "Pandas", "Tensorflow" ,"Streamlit"],
   },
   {
     title: "User Management System",
     image:  user_management,
     description:
       "The User Management System is a web application built with HTML, CSS, Javascript, , MongoDB and Node.js. It provides a platform for managing users, enabling CRUD (Create, Read, Update, Delete) operations with a clean and user-friendly interface. The backend uses Express.js for routing and MongoDB as the database.",
-    technologies: ["HTML", "CSS", "EJS", "MongoDB","Node js","Express js"],
+    technologies: ["HTML", "CSS", "EJS", "MongoDB","Express js"],
   },
   {
     title: "Gemini 2.0(Clone)",
@@ -73,32 +73,32 @@ export const PROJECTS = [
       "Airizer simplifies your content, extracting your long articles in seconds. With Gemini’s Wrapper class, Airizer offers customizable, concise summaries so you can focus on what truly matters..",
     technologies: ["React js", "Tailwind CSS", "Redux toolkit",],
   }, {
-    title: "Blogging Platform",
-    image: airizer,
+    title: "Attendance Monitoring System Using Face Recognition",
+    image: ams,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This project is a Python-based Attendance Monitoring System that uses face recognition to mark attendance. ",
+    technologies: ["Python" ,"OpenCV" ,"TKinter","openpyxl"]
   },
   {
-    title: "Blogging Platform",
-    image: gemini,
+    title: "WizardZ",
+    image: wizardz,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A modern and dynamic frontend clone built with HTML, CSS, JavaScript, and animations powered by GSAP (GreenSock Animation Platform).",
+    technologies: ["HTML", "CSS", "Javascript", "GSAP"],
   },
   {
-    title: "Blogging Platform",
-    image: user_management,
+    title: "Ableton(Clone)",
+    image: ableton,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A front-end practice project where I recreated the Ableton website using only HTML and CSS. This project focuses on replicating the design, layout, and responsiveness of the Ableton homepage to enhance my front-end development skills.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Weather Man",
     image: weather_man,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Weather Man is a web-based application built using HTML, CSS, and JavaScript. It provides real-time weather updates for any location by fetching data from a weather API. The app is responsive, visually appealing, and easy to use.",
+    technologies: ["HTML", "CSS", "Javascript"],
   }
 ];
 
