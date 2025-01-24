@@ -7,6 +7,20 @@ import { DiGit, DiNodejs, DiPython } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { CgFramer } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
+import{animate, motion} from 'framer-motion';
+
+const iconvarient = (duration)=>({
+    initial:{ y: -10},
+    animate:{
+        y:[10,-10],
+        transition :{
+            duration :duration,
+            ease:"linear",
+            repeat : Infinity,
+            repeatType:"reverse"
+        }
+    }
+})
 
 
 
@@ -16,53 +30,95 @@ const TechStack = () => {
   return (
     <div className='pb-24 '>
         <div className='text-4xl  text-center my-20'>
-            <h2>My Tech Stack</h2>
+            <motion.h2
+            whileInView={{opacity:1 , y:0}}
+            initial={{opacity:0 , y:-100}}
+            transition={{duration:1.5}}
+            >My Tech Stack</motion.h2>
         </div>
 
         <div className='px-5'>
-            <div className='flex flex-wrap justify-center items-center mt-5 text-7xl'>
-                <div className='p-4'>  
+            <motion.div 
+                whileInView={{opacity:1 ,x:0}}
+                initial={{opacity:0 ,x:-100}}
+                transition={{duration:1.5}}
+            className='flex flex-wrap justify-center items-center mt-5 text-7xl'>
+
+                <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconvarient(2.5)}
+                className='p-4'>  
                 <SiReact/>
-                </div>
+                </motion.div>
 
                 
-                <div className='p-4'>   
+                <motion.div 
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(3)}
+                className='p-4'>   
                 <RiJavascriptFill />
-                </div>
+                </motion.div>
                 
 
-                <div className='p-4'>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(5)}
+                className='p-4'>
                 <SiPython />
-                </div>
+                </motion.div>
 
-                <div className='p-4'>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(2)}
+                className='p-4'>
                 <SiNodedotjs />
-                </div>
+                </motion.div>
 
-                <div className='p-4'>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(6)}
+                className='p-4'>
                     <SiExpress />
-                </div>
+                </motion.div>
 
-                <div className='p-4'>
+                <motion.div
+                initial="initial"
+                animate="animate"
+                variants={iconvarient(4)}
+                className='p-4'>
                     <SiMongodb />
-                </div >
+                </motion.div >
 
-                <div className='p-4'>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(3)}
+                className='p-4'>
                     <CgFramer />
-                </div>
+                </motion.div>
 
-                <div className='p-4'>
+                <motion.div 
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(4.5)}
+                className='p-4'>
                     < DiGit/>
-                </div >
+                </motion.div >
 
-                <div className='p-4'>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconvarient(6.5)}
+                className='p-4'>
                     < SiC/>
-                </div>
-
+                </motion.div>
                 
-
-
-            </div>
+            </motion.div>
         </div>
 
     </div>
