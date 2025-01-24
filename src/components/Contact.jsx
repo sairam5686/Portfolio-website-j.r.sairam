@@ -13,13 +13,6 @@ const Contact = () => {
             className='text-center text-4xl'>Contact Me</motion.h1>
         </div>
         <div className='flex justify-center flex-col items-center gap-4 '>
-           
-           
-            <motion.h3
-             whileInView={{opacity:1,y:0}}
-             initial={{opacity:0,y:-100}}
-             transition={{duration: 0.5}}
-            >{CONTACT.address} </motion.h3>
 
             <motion.h3  
             whileInView={{opacity:1,y:0}}

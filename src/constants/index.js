@@ -104,9 +104,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  
+  phoneNo: " +91 8754455609 ",
+  email: "jrsairam5686@gmail.com",
 };
 
 
@@ -120,6 +120,6 @@ Express.js, MongoDB, and Reactjs to visualize and analyze the life cycle of
 electricity for 12 Districts through 880 Feeders in Tamil Nadu`,
      company: "Derelle Consulting Private Limited",
 
-    technologies: [],
+    technologies: ["React js","Node and Expressjs" ,"MongoDB"],
   }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiGithub } from "react-icons/si";
-import { BsInstagram } from "react-icons/bs";
+import { BsInstagram, BsPerson } from "react-icons/bs";
 import { CgPokemon } from "react-icons/cg";
 
 
@@ -22,14 +22,14 @@ const Navbar = () => {
 
 
         <div className='m-8 flex justify-center  gap-6 items-center text-2xl     '>
-            <a href="" >
+            <a href="https://www.linkedin.com/in/sairam-j-r/" >
             <AiOutlineLinkedin />
             </a>
-            <a href="">
+            <a href="https://github.com/sairam5686">
             <SiGithub />
             </a>
-            <a href="">
-            <BsInstagram/>
+            <a href="https://jrsairam.framer.website/">
+            <BsPerson/>
             </a>            
         </div>      
     </div>
