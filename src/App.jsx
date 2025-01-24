@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import TechStack from './components/TechStack'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -10,9 +12,11 @@ const App = () => {
         </div>
 
 
-    <div className='container mx-auto py-8'>
+    <div className='container mx-auto px-8'>
     <Navbar />
     <Hero/>
+    <TechStack />
+    <Projects />
     </div>
 
     </div>

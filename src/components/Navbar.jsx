@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
 
-        <div className='m-6 flex justify-center  gap-6 items-center text-2xl sm:text-sm md:text-xl   '>
+        <div className='m-8 flex justify-center  gap-6 items-center text-2xl     '>
             <a href="" >
             <AiOutlineLinkedin />
             </a>
