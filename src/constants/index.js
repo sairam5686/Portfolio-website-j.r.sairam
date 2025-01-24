@@ -10,7 +10,7 @@ import weather_man from '../assets/projects/weather-icon.jpg'
 
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello, I'm Sairam, a passionate software developer with a knack for crafting digital solutions. My journey in programming has been an exciting exploration of creating efficient and seamless applications. With strong foundation in Python , Reactjs , Expressjs, Framer ,Nodejs, MongoDB,  etc  and version control using Git and GitHub, my goal is to build systems that not only perform flawlessly but also deliver an exceptional user experience`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -40,39 +40,38 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: wizardz,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "Reactify",
     image: reactify,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description:"Reactify is an innovative AI-powered code generator designed to streamline the development of full-stack and React applications. With its ability to deliver live previews using WebContainer and generate efficient, scalable code via an LLM wrapper class, Reactify makes development faster and more accessible. Built entirely with TypeScript, it ensures type safety, maintainability, and a robust development experience.",
+    technologies: ["React js",  "Typescript", "Web Container", "Express js" ,"Node js"],
   },
   {
-    title: "Portfolio Website",
-    image: ams,
+    title: " Multiple Disease Analyzer",
+    image: multiple ,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "The Multiple Disease Analyzer is a Python-based machine learning project designed to analyze and predict various diseases based on input data. This tool leverages machine learning and deep learning models with an interactive web application using Streamlit.",
+    technologies: ["Python", "Pandas", "Numpy", "Tensorflow" ,"Streamlit"],
   },
   {
-    title: "Blogging Platform",
-    image: multiple,
+    title: "User Management System",
+    image:  user_management,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "The User Management System is a web application built with HTML, CSS, Javascript, , MongoDB and Node.js. It provides a platform for managing users, enabling CRUD (Create, Read, Update, Delete) operations with a clean and user-friendly interface. The backend uses Express.js for routing and MongoDB as the database.",
+    technologies: ["HTML", "CSS", "EJS", "MongoDB","Node js","Express js"],
   },
   {
-    title: "Blogging Platform",
-    image: ableton,
+    title: "Gemini 2.0(Clone)",
+    image: gemini,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This is a Gemini 2.0 Clone project built using React and the Gemini API. The application offers a seamless and responsive design, replicating the core functionalities of the Gemini platform with a modern user interface.",
+    technologies: ["React js", "Tailwind CSS", "Redux Toolkit"],
+  },
+  {
+    title: "Airizer",
+    image: airizer,
+    description:
+      "Airizer simplifies your content, extracting your long articles in seconds. With Gemini’s Wrapper class, Airizer offers customizable, concise summaries so you can focus on what truly matters..",
+    technologies: ["React js", "Tailwind CSS", "Redux toolkit",],
   }, {
     title: "Blogging Platform",
     image: airizer,
