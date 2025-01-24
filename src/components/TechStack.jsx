@@ -49,7 +49,7 @@ const TechStack = () => {
                 animate="animate"
                 variants={iconvarient(2.5)}
                 className='p-4'>  
-                <SiReact/>
+                <SiReact className='text-cyan-500' />
                 </motion.div>
 
                 
@@ -58,7 +58,7 @@ const TechStack = () => {
                  animate="animate"
                  variants={iconvarient(3)}
                 className='p-4'>   
-                <RiJavascriptFill />
+                <RiJavascriptFill className='text-yellow-300' />
                 </motion.div>
                 
 
@@ -67,7 +67,7 @@ const TechStack = () => {
                  animate="animate"
                  variants={iconvarient(5)}
                 className='p-4'>
-                <SiPython />
+                <SiPython className='text-amber-500' />
                 </motion.div>
 
                 <motion.div
@@ -75,7 +75,7 @@ const TechStack = () => {
                  animate="animate"
                  variants={iconvarient(2)}
                 className='p-4'>
-                <SiNodedotjs />
+                <SiNodedotjs className='text-green-400' />
                 </motion.div>
 
                 <motion.div
@@ -91,7 +91,7 @@ const TechStack = () => {
                 animate="animate"
                 variants={iconvarient(4)}
                 className='p-4'>
-                    <SiMongodb />
+                    <SiMongodb className='text-emerald-500' />
                 </motion.div >
 
                 <motion.div
@@ -99,7 +99,7 @@ const TechStack = () => {
                  animate="animate"
                  variants={iconvarient(3)}
                 className='p-4'>
-                    <CgFramer />
+                    <CgFramer className='text-gray-400' />
                 </motion.div>
 
                 <motion.div 
@@ -107,15 +107,15 @@ const TechStack = () => {
                  animate="animate"
                  variants={iconvarient(4.5)}
                 className='p-4'>
-                    < DiGit/>
+                    < DiGit className='text-red-500' />
                 </motion.div >
 
                 <motion.div
                  initial="initial"
                  animate="animate"
-                 variants={iconvarient(6.5)}
+                 variants={iconvarient(1)}
                 className='p-4'>
-                    < SiC/>
+                    < SiC className='text-blue-400' />
                 </motion.div>
                 
             </motion.div>
