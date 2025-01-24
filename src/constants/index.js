@@ -1,3 +1,13 @@
+import reactify from '../assets/projects/reactify-2.png';
+import ableton from '../assets/projects/ableton.jpg';
+import airizer from '../assets/projects/Airizer.png';
+import ams from '../assets/projects/Attendance monitoring system.png';
+import wizardz from '../assets/projects/final_img.jpg';
+import gemini from '../assets/projects/Gemini 2.0.png';
+import multiple from '../assets/projects/Multiple Disease Analyzer.png';
+import user_management from '../assets/projects/User_management_system.png';
+import weather_man from '../assets/projects/Weather man.png'
+
 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
