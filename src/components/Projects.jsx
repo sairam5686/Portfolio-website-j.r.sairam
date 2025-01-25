@@ -1,6 +1,7 @@
 import React from 'react'
 import {PROJECTS} from '../constants/index';
 import {motion} from 'framer-motion';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -21,8 +22,8 @@ const Projects = () => {
               whileInView={{opacity:1,x:0}}
               initial={{opacity:0,x:-100}}
               transition={{duration: 1}}
-              className='w-full mt-10 mr-5 lg:w-1/4' >
-                <img src={items.image}  height={300} width={300} className='mb-6 rounded-2xl sm:m-auto sm:mb-3  ' />
+              className='w-full mt-15 mr-10 lg:w-1/4' >
+                <img src={items.image}  height={350} width={350} className='mb-6  rounded-2xl sm:m-auto sm:mb-3  ' />
               </motion.div>
 
               <motion.div 
@@ -37,6 +38,11 @@ const Projects = () => {
                       {tech}
                       </span>
                 ))}
+                <div className='mt-5'>
+                <a href={items.link}>
+                  <button className='bg-zinc-800 hover:bg-stone-800 text-stone-300 font-Medium py-1 px-2 rounded-xl'>View Project</button>
+                </a>
+                </div>
               </motion.div>
 
             </div>
