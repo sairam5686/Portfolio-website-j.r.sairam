@@ -1,5 +1,5 @@
 import React from 'react'
-import sairam_hero from '../assets/protfolio.png'
+import sairam_hero from "../assets/sairam_2.png"
 import {HERO_CONTENT} from "../constants/index.js"
 import {motion} from'framer-motion'
 
