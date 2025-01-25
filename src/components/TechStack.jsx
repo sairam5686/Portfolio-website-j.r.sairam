@@ -48,7 +48,7 @@ const TechStack = () => {
                 initial="initial"
                 animate="animate"
                 variants={iconvarient(2.5)}
-                className='p-4'>  
+                className='p-4' title='React js' >  
                 <SiReact className='text-cyan-500' />
                 </motion.div>
 
@@ -57,7 +57,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(3)}
-                className='p-4'>   
+                className='p-4'title='Javascript' >   
                 <RiJavascriptFill className='text-yellow-300' />
                 </motion.div>
                 
@@ -66,7 +66,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(5)}
-                className='p-4'>
+                className='p-4' title="Python">
                 <SiPython className='text-amber-500' />
                 </motion.div>
 
@@ -74,7 +74,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(2)}
-                className='p-4'>
+                className='p-4' title='Node js'>
                 <SiNodedotjs className='text-green-400' />
                 </motion.div>
 
@@ -82,7 +82,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(6)}
-                className='p-4'>
+                className='p-4' title='Express js'>
                     <SiExpress />
                 </motion.div>
 
@@ -90,7 +90,7 @@ const TechStack = () => {
                 initial="initial"
                 animate="animate"
                 variants={iconvarient(4)}
-                className='p-4'>
+                className='p-4' title='MongoDB' >
                     <SiMongodb className='text-emerald-500' />
                 </motion.div >
 
@@ -98,7 +98,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(3)}
-                className='p-4'>
+                className='p-4' title='Framer & Framer motion'>
                     <CgFramer className='text-gray-400' />
                 </motion.div>
 
@@ -106,7 +106,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(4.5)}
-                className='p-4'>
+                className='p-4' title='Git & Github'>
                     < DiGit className='text-red-500' />
                 </motion.div >
 
@@ -114,7 +114,7 @@ const TechStack = () => {
                  initial="initial"
                  animate="animate"
                  variants={iconvarient(1)}
-                className='p-4'>
+                className='p-4' title='C Language' >
                     < SiC className='text-blue-400' />
                 </motion.div>
                 

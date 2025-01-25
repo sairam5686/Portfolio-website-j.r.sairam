@@ -68,7 +68,7 @@ export const PROJECTS = [
     description:
       "This is a Gemini 2.0 Clone project built using React and the Gemini API. The application offers a seamless and responsive design, replicating the core functionalities of the Gemini platform with a modern user interface.",
     technologies: ["React js", "Tailwind CSS", "Redux Toolkit"],
-    link:`https://github.com/sairam5686/Gemini-clone`
+    link:`https://unrivaled-babka-792493.netlify.app/`
   },
   {
     title: "Airizer",
@@ -113,7 +113,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
   
-  phoneNo: " +91 8754455609 ",
+  phoneNo: " +91 87544 55609 ",
   email: "jrsairam5686@gmail.com",
 };
 
